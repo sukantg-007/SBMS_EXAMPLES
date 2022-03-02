@@ -1,0 +1,12 @@
+package com.ms.exchange.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class ExchangeValue {
+
+	private Long id;
+	private String form;
+	private String to;
+	
+}

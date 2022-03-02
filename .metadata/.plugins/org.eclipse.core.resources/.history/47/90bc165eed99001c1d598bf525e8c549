@@ -1,0 +1,5 @@
+package com.vc.ms.consumer;
+
+public class User {
+
+}

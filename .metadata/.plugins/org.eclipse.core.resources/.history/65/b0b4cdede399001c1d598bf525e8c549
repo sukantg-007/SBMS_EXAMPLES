@@ -1,0 +1,5 @@
+package com.vc.ms.config;
+
+public class MessageQueue {
+
+}

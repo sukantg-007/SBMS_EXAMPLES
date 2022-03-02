@@ -1,0 +1,6 @@
+package com.vc.ms.config;
+
+@Configuration
+public class AppConfig {
+
+}

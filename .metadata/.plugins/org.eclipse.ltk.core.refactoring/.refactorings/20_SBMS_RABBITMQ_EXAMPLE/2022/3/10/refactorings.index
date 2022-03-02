@@ -1,0 +1,4 @@
+1646196199685	Rename package 'com.vc.ms.producers'
+1646199070267	Extract constant 'RABBITMQ_QUEUE'
+1646199202840	Extract constant 'RABBITMQ_EXCHANGE'
+1646199395994	Extract constant 'RABBITMQ_ROUTING_KEY'

@@ -1,0 +1,5 @@
+package com.vc.ms.rest;
+
+public class HelloController {
+
+}

@@ -1,0 +1,12 @@
+package com.ms.exchange.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.ms.exchange.repository.ExchangeValueRepo;
+
+@RestController
+public class ForexController {
+
+	private ExchangeValueRepo exchangeValueRepo;
+	
+}

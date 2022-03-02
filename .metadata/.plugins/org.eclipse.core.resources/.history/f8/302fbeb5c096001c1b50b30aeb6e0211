@@ -1,0 +1,13 @@
+package com.vc.ms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BookmyshowRest2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookmyshowRest2Application.class, args);
+	}
+
+}

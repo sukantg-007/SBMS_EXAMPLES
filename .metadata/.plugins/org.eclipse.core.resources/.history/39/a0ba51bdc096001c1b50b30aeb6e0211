@@ -1,0 +1,19 @@
+package com.vc.ms;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@EnableHystrix
+@EnableHystrixDashboard
+@RestController
+public class BookmyshowRest2Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookmyshowRest2Application.class, args);
+	}
+
+}

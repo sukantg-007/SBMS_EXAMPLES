@@ -1,0 +1,12 @@
+package com.vc.ms;
+
+import org.springframework.core.env.Environment;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyConversionController {
+
+	private Environment environment;
+	
+	private CurrencyValueRepository repository;
+}

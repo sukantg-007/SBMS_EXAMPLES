@@ -1,0 +1,15 @@
+package com.ms.currencyconv;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients("com.ms.currencyconv")
+public class CurrencyConversionApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CurrencyConversionApplication.class, args);
+	}
+
+}

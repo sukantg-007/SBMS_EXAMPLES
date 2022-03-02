@@ -1,0 +1,14 @@
+package com.ms.currencyconv;
+
+import java.math.BigDecimal;
+
+public class CorrencyConversionBean {
+
+	private Long id;
+	private String from;
+	private String to;
+	private BigDecimal conversionMultiple;
+	private BigDecimal 	quantity;
+	private BigDecimal totalCalculatedAmout;
+	private Integer port;
+}

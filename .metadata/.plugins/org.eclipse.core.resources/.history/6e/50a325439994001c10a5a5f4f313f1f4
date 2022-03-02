@@ -1,0 +1,5 @@
+package com.ms.exchange.repository;
+
+public interface ExchangeValueRepo {
+
+}

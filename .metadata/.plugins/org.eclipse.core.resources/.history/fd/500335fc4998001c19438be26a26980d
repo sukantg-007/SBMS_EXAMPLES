@@ -1,0 +1,10 @@
+package com.vc.ms;
+
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "currency-coversion-service")
+@RibbonClient(name = "currency-exchange-service")
+public interface CurrencyConversionServiceProxy {
+
+}

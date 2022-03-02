@@ -1,0 +1,11 @@
+package com.vc.ms;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentController {
+
+	public String save(Student student) {
+		
+	}
+}

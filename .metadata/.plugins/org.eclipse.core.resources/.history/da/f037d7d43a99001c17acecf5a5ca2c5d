@@ -1,0 +1,3 @@
+server.port=8082
+spring.application.name=SAMPLE-APP-TWO
+logging.file.name=C:/output/apptwo.log

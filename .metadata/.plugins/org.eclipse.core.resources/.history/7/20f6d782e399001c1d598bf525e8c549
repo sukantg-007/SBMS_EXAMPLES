@@ -1,0 +1,9 @@
+package com.vc.ms.entity;
+
+public class Order {
+
+	private String oid;
+	private String name;
+	private int qty;
+	private double price;
+}

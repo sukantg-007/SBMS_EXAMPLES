@@ -1,0 +1,4 @@
+server.port=9091
+eureka.client.service-url.default-zone=http://localhost:9090/eureka
+
+eureka.client.fetch-registry=true

@@ -1,0 +1,11 @@
+package com.ms.currencyconv;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CurrencyConversionController {
+
+	public CorrencyConversionBean currenctCurrency() {
+		return null;
+	}
+}

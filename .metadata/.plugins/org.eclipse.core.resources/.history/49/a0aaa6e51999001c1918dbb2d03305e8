@@ -1,0 +1,26 @@
+package com.vc.ms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/student")
+public class StudentController {
+	@Autowired
+	StudentRepo studentRepo;
+	
+	@PostMapping("/add")
+	public String save(@RequestBody Student student) {
+		Student s=studentRepo.save(student);
+		String msg="";
+		msg=(s==null)?"Student Insersion Failed":"Student Insersion Success";
+		return msg;
+	}
+}

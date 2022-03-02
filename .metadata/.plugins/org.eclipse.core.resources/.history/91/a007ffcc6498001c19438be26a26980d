@@ -1,0 +1,4 @@
+zuul.routes.doctors-service.path=/doctor-api/**
+zuul.routes.doctors-service.url=http://localhost:8081
+zuul.routes.diagnosis-service.url=http://localhost:8082/getdiagnosis
+debug=true

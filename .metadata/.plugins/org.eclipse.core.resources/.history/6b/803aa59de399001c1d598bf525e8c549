@@ -1,0 +1,5 @@
+package com.vc.ms.entity;
+
+public class OrderStatus {
+
+}

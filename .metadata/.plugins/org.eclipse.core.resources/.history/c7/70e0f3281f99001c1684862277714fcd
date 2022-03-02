@@ -1,0 +1,3 @@
+zuul.routes.student-service.path=/std/**
+zuul.routes.doctors-service.url=http://localhost:9090
+

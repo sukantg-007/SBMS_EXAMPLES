@@ -1,0 +1,8 @@
+package com.vc.ms;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name = "currency-coversion-service")
+public interface CurrencyConversionServiceProxy {
+
+}

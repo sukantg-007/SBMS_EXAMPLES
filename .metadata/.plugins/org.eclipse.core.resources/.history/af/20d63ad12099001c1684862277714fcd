@@ -1,0 +1,4 @@
+zuul.routes.student-service.path=/student/**
+zuul.routes.doctors-service.url=http://localhost:9090
+server.port=9091
+

@@ -1,0 +1,19 @@
+package com.vc.ms.config;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.core.TopicExchange;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class MessageQueue {
+
+	private static final String RABBITMQ_QUEUE = "Rabbitmq queue";
+
+	public Queue queue() {
+		return new Queue(RABBITMQ_QUEUE);
+	}
+	
+	public TopicExchange exchange() {
+		return new TopicExchange("R)
+	}
+}
